@@ -1,0 +1,159 @@
+[2024-05-23 13:36:19 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 11352 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 13:36:19 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 735 ms[0;39m
+[2024-05-23 13:36:20 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:36:20 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 13:36:20 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.493 seconds (process running for 1.994)[0;39m
+[2024-05-23 13:37:15 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:37:15 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:37:15 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 13:37:16 [32mINFO [0;39m http-nio-8080-exec-7] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 132 ms[0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 6840 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 13:39:28 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 740 ms[0;39m
+[2024-05-23 13:39:29 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:39:29 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 13:39:29 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.495 seconds (process running for 1.807)[0;39m
+[2024-05-23 13:39:35 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:39:35 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:39:35 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 13:39:35 [32mINFO [0;39m http-nio-8080-exec-10] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 133 ms[0;39m
+[2024-05-23 13:41:16 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 13:41:16 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 10400 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 13:41:16 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 727 ms[0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 13:41:17 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.474 seconds (process running for 1.837)[0;39m
+[2024-05-23 13:41:28 [32mINFO [0;39m http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:41:28 [32mINFO [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:41:28 [32mINFO [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 13:43:23 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 13:43:23 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 11404 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 13:43:23 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 716 ms[0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 13:43:24 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.477 seconds (process running for 1.781)[0;39m
+[2024-05-23 13:43:30 [32mINFO [0;39m http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:43:30 [32mINFO [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:43:30 [32mINFO [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 13:45:25 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 13:45:25 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 11720 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 13:45:25 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 720 ms[0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:45:26 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 13:45:27 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.462 seconds (process running for 1.759)[0;39m
+[2024-05-23 13:45:50 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:45:50 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:45:50 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-05-23 13:45:50 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.green.todopra.common.model.ResultDto<java.lang.Integer> com.green.todopra.user.UserController.signUpPost(com.green.todopra.user.model.SignUpPostReq): [Field error in object 'p' on field 'email': rejected value [이메일]; codes [Email.p.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [p.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@41651752,.*]; default message [올바른 형식의 이메일 주소여야 합니다]] ][0;39m
+[2024-05-23 13:47:11 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 6616 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 13:47:12 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 716 ms[0;39m
+[2024-05-23 13:47:13 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 13:47:13 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 13:47:13 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.465 seconds (process running for 1.764)[0;39m
+[2024-05-23 13:47:21 [32mINFO [0;39m http-nio-8080-exec-5] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:47:21 [32mINFO [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 13:47:21 [32mINFO [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 13:47:22 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.green.todopra.common.model.ResultDto<java.lang.Integer> com.green.todopra.user.UserController.signUpPost(com.green.todopra.user.model.SignUpPostReq): [Field error in object 'p' on field 'email': rejected value [이메일]; codes [Email.p.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [p.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@40bac518,.*]; default message [유효하지 않은 이메일 형식입니다.]] ][0;39m
+[2024-05-23 14:12:41 [33mWARN [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.green.todopra.common.model.ResultDto<java.lang.Integer> com.green.todopra.user.UserController.signUpPost(com.green.todopra.user.model.SignUpPostReq): [Field error in object 'p' on field 'email': rejected value [이메일]; codes [Email.p.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [p.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@40bac518,.*]; default message [유효하지 않은 이메일 형식입니다.]] ][0;39m
+[2024-05-23 14:12:52 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 14:12:52 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 12356 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 14:12:52 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 14:12:53 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 14:12:53 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 14:12:53 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 14:12:53 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 14:12:53 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 14:12:53 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 725 ms[0;39m
+[2024-05-23 14:12:54 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 14:12:54 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 14:12:54 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.466 seconds (process running for 1.762)[0;39m
+[2024-05-23 14:12:58 [32mINFO [0;39m http-nio-8080-exec-4] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 14:12:58 [32mINFO [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 14:12:58 [32mINFO [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 14:13:56 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 14:13:56 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 12624 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 14:13:56 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 735 ms[0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 14:13:57 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.478 seconds (process running for 1.774)[0;39m
+[2024-05-23 14:14:03 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 14:14:03 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 14:14:03 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-05-23 14:14:03 [32mINFO [0;39m http-nio-8080-exec-1] [com.green.todopra.user.UserController] [36mSignUpPostReq(email=이메일, userId=0, pic=null, uid=abcTest1234, upw=123456, nm=IU)[0;39m
+[2024-05-23 14:19:08 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 14:19:08 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 12372 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 14:19:08 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 744 ms[0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 14:19:09 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.49 seconds (process running for 1.79)[0;39m
+[2024-05-23 14:19:24 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 14:19:24 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 14:19:24 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-05-23 14:19:24 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.green.todopra.common.model.ResultDto<java.lang.Integer> com.green.todopra.user.UserController.signUpPost(com.green.todopra.user.model.SignUpPostReq): [Field error in object 'p' on field 'email': rejected value [이메일]; codes [Email.p.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [p.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@17fdcd75,.*]; default message [유효하지 않은 이메일 형식입니다.]] ][0;39m
+[2024-05-23 16:39:45 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-05-23 16:39:45 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarting TodopraApplication using Java 17.0.10 with PID 13012 (D:\2024-03\backEnd\todopra\build\classes\java\main started by Administrator in D:\2024-03\backEnd\todopra)[0;39m
+[2024-05-23 16:39:45 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-05-23 16:39:46 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-05-23 16:39:46 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 16:39:46 [32mINFO [0;39m main] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-05-23 16:39:46 [32mINFO [0;39m main] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-05-23 16:39:46 [32mINFO [0;39m main] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-05-23 16:39:46 [32mINFO [0;39m main] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 758 ms[0;39m
+[2024-05-23 16:39:47 [32mINFO [0;39m main] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-05-23 16:39:47 [32mINFO [0;39m main] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-05-23 16:39:47 [32mINFO [0;39m main] [com.green.todopra.TodopraApplication] [36mStarted TodopraApplication in 1.529 seconds (process running for 1.835)[0;39m
+[2024-05-23 16:40:26 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-05-23 16:40:26 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-05-23 16:40:26 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-05-23 16:40:26 [32mINFO [0;39m http-nio-8080-exec-1] [com.green.todopra.user.UserController] [36mtrue[0;39m
+[2024-05-23 16:40:26 [32mINFO [0;39m http-nio-8080-exec-1] [com.green.todopra.user.UserController] [36mSignUpPostReq(email=redraib05@naver.com, userId=0, pic=null, uid=abcTest1234, upw=123456, nm=IU)[0;39m
