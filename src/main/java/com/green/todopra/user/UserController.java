@@ -28,8 +28,10 @@ public class UserController {
     @PostMapping("sing-up")
     @Operation(summary = "유저 회원가입", description = "")
     public ResultDto<Integer> signUpPost(@RequestPart @Valid SignUpPostReq p) {
-        boolean validEmail = Validator.isValidEmail(p.getEmail());
         log.info("{}", p);
+        boolean validId = Validator.isValidId(p.getUid());
+        boolean validEmail = Validator.isValidEmail(p.getEmail());
+        boolean validPassword = Validator.isValidPassword(p.getUpw());
 
         log.info("{}", validEmail);
 

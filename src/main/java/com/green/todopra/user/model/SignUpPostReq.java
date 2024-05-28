@@ -4,12 +4,14 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
 @Getter
 @Setter
+@Builder
 @ToString
 public class SignUpPostReq {
     @Email(message = "유효하지 않은 이메일 형식입니다.")
@@ -29,5 +31,6 @@ public class SignUpPostReq {
     private String upw;
     @Schema(example = "닉네임", description = "저스디스", requiredMode = Schema.RequiredMode.REQUIRED)
     private String nm;
+
 
 }
