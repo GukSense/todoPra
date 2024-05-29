@@ -6,6 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 @Slf4j
 class REGEX_TEST {
 
@@ -25,19 +26,19 @@ class REGEX_TEST {
          * */
 
         /**
-        소문자만사용
-        */
+         소문자만사용
+         */
         //given
         String inputIdData = "abcdef";
         //when
         boolean validId = Validator.isValidId(inputIdData);
         //then
         assertTrue(validId); // expected true
-        log.info("소문자만 사용 success {}", validId );
+        log.info("소문자만 사용 success {}", validId);
 
         /**
-        대문자만 사용
-        */
+         대문자만 사용
+         */
 
         //g
         inputIdData = "ABCDEF";
@@ -45,7 +46,7 @@ class REGEX_TEST {
         boolean validOnlyUppercase = Validator.isValidId(inputIdData);
         //t
         assertTrue(validOnlyUppercase);
-        log.info("대문자만 사용 success {}", validOnlyUppercase );
+        log.info("대문자만 사용 success {}", validOnlyUppercase);
         /**
          * 숫자만사용
          */
@@ -55,7 +56,7 @@ class REGEX_TEST {
         boolean validOnlyNumber = Validator.isValidId(inputIdData);
         //then
         assertTrue(validOnlyNumber);
-        log.info("숫자만 사용 success {}", validOnlyNumber );
+        log.info("숫자만 사용 success {}", validOnlyNumber);
         /**
          * 영어 대소문자와 혼합
          * */
@@ -65,7 +66,7 @@ class REGEX_TEST {
         boolean validChaosAll = Validator.isValidId(inputIdData);
         //t
         assertTrue(validChaosAll);
-        log.info("영어 대소문자와 혼합 success {}", validChaosAll );
+        log.info("영어 대소문자와 혼합 success {}", validChaosAll);
         /**
          * 최대 길이, 숫자와 대문자 혼합
          * */
@@ -84,6 +85,7 @@ class REGEX_TEST {
         String inputIdData = "gang";
         boolean validLessSixLetters = Validator.isValidId(inputIdData);
         assertFalse(validLessSixLetters);
+        log.info("6글자 미만 일때 False {}", validLessSixLetters);
     }
 
     @Test
@@ -92,12 +94,48 @@ class REGEX_TEST {
         String intputIdData = "BaeGangGuk1234";
         boolean validExceedTwelveLetters = Validator.isValidId(intputIdData);
         assertFalse(validExceedTwelveLetters);
+        log.info("12글자 초과 {}", validExceedTwelveLetters);
     }
 
     @Test
-    @DisplayName("아이디 정규표현식 테스트_대문자만 사용")
-    void validOnlyUpperCase() {
-       ;
+    @DisplayName("아이디 정규표현식 테스트_특수 문자 포함 (!)")
+    void validSpecialCharacters() {
+        String inputIdData = "abcde!";
+        boolean validIdSpecialCharacters = Validator.isValidId(inputIdData);
+        assertFalse(validIdSpecialCharacters);
+        log.info("특수 문자 포함 (!) {}", validIdSpecialCharacters);
 
+        inputIdData = "abcdefg#";
+        boolean validIdSpecialCharacters2 = Validator.isValidId(inputIdData);
+        assertFalse(validIdSpecialCharacters2);
+        log.info("특수 문자 포함 (#) {}", validIdSpecialCharacters2);
     }
+
+    @Test
+    @DisplayName("아이디 정규표현식 테스트_공백포함")
+    void validWhiteString() {
+        String inputData = "abcd efg";
+        boolean validWhiteString = Validator.isValidId(inputData);
+        assertFalse(validWhiteString);
+        log.info("공백문자 포함 {}", validWhiteString);
+    }
+
+    @Test
+    @DisplayName("아이디 정규표현식 허용되지 않은 문자(악센트문자)")
+    void validSpecialString() {
+        String inputData = "abcdéfg";
+        boolean validSpecialString = Validator.isValidId(inputData);
+        assertFalse(validSpecialString);
+        log.info("허용되지않은 문자 {}", validSpecialString);
+    }
+
+    @Test
+    @DisplayName("빈 문자열")
+    void validEmptyString() {
+        String inputData = "";
+        boolean validEmptyString = Validator.isValidId(inputData);
+        assertFalse(validEmptyString);
+        log.info("빈 문자열 {}", validEmptyString);
+    }
+
 }
