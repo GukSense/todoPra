@@ -10,11 +10,7 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.bind.annotation.RestController;
-
+import org.springframework.web.bind.annotation.*;
 
 
 @Slf4j
@@ -26,15 +22,19 @@ public class UserController {
     private final UserService service;
 
     @PostMapping("sing-up")
-    @Operation(summary = "유저 회원가입", description = "")
-    public ResultDto<Integer> signUpPost(@RequestPart @Valid SignUpPostReq p) {
+    @Operation(summary = "유저 회원가입",
+            description = "<div > [email]: 이메일 ex)abc1234@naver.com </div>" + "\n" +
+                          "<div> [uid]: 아이디 ex) abc1234 </div>" + "\n" +
+                          "<div> [upw]: 비밀번호 ex) abc1234 </div>"
+
+    )
+    public ResultDto<Integer> signUpPost(@RequestBody @Valid SignUpPostReq p) {
         log.info("{}", p);
-        boolean validId = Validator.isValidId(p.getUid());
-        boolean validEmail = Validator.isValidEmail(p.getEmail());
-        boolean validPassword = Validator.isValidPassword(p.getUpw());
-
-        log.info("{}", validEmail);
-
+        try {
+            service.validateUser(p);
+        } catch (RuntimeException e) {
+            return ResultDto.<Integer>builder().build(); // 어떤 에러메시지를 던져줘야하나?
+        }
         int result = service.signUpPost(p);
 
         return ResultDto.<Integer>builder()

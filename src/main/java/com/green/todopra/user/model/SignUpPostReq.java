@@ -20,10 +20,7 @@ public class SignUpPostReq {
     private String email;
 
 
-    @JsonIgnore
-    private long userId;
-    @JsonIgnore
-    private String pic;
+
 
     @Schema(example = "아이디", description = "redraib05", requiredMode = Schema.RequiredMode.REQUIRED)
     private String uid;
@@ -31,6 +28,12 @@ public class SignUpPostReq {
     private String upw;
     @Schema(example = "닉네임", description = "저스디스", requiredMode = Schema.RequiredMode.REQUIRED)
     private String nm;
+
+    @JsonIgnore
+    private long userId;
+    @JsonIgnore
+    private String pic;
+
 
 
 }
